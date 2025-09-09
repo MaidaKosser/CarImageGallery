@@ -51,7 +51,6 @@ luxury-car-gallery/
 ├── index.html      # Main HTML file
 ├── style.css       # CSS styles
 ├── script.js       # JavaScript for carousel & lightbox
-└── README.md       # Project documentation
 ```
 
 ---
@@ -68,6 +67,6 @@ luxury-car-gallery/
 
 **MK Luxury Car Image Gallery**
 
-* GitHub: https://github.com/MaidaKosser/CodeAlpha_ImageGallery.git
+* GitHub: https://github.com/MaidaKosser/CarImageGallery.git
 
 
