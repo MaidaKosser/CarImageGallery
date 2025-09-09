@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Explore Luxury Cars: Mercedes, BMW, Ferrari & Tesla in a smooth gallery with lightbox and carousel." />
+  <meta name="keywords" content="Luxury Cars, Mercedes, BMW, Ferrari, Tesla, Car Gallery, Carousel, Lightbox" />
+  <meta name="author" content="MK Luxury Gallery" />
+  <meta property="og:title" content="Luxury Car Gallery by MK" />
+  <meta property="og:description" content="Interactive car gallery featuring Mercedes, BMW, Ferrari & Tesla. Click to view each car in lightbox!" />
+  <title>MK Luxury Car Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero section -->
+  <header class="hero">
+    <h1>Luxury Car Collection</h1>
+  </header>
+
+  <!-- Car filters -->
+  <nav class="car-filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="Mercedes">Mercedes</button>
+    <button data-filter="BMW">BMW</button>
+    <button data-filter="Ferrari">Ferrari</button>
+    <button data-filter="Tesla">Tesla</button>
+  </nav>
+
+  <!-- Carousel section -->
+  <section class="car-carousel">
+    <div id="carouselTrack" class="carousel-track">
+      <!-- Images will be positioned by JS -->
+      <img class="car-card" src="https://images.hgmsites.net/lrg/2025-mercedes-benz-s-class-s-500-4matic-sedan-angular-front-exterior-view_100960081_l.webp" alt="Mercedes" data-category="Mercedes">
+      <img class="car-card" src="https://i.pinimg.com/736x/d0/f6/bb/d0f6bb346416273c821a3e0067245e78.jpg" alt="BMW" data-category="BMW">
+      <img class="car-card" src="https://i.pinimg.com/736x/d1/a4/be/d1a4be08ee952f97332989c1767f57f4.jpg" alt="Ferrari" data-category="Ferrari">
+      <img class="car-card" src="https://i.pinimg.com/564x/94/93/62/949362357e132818f6f7a0db940349a9.jpg" alt="Tesla" data-category="Tesla">
+      <img class="car-card" src="https://4kwallpapers.com/images/wallpapers/mansory-mercedes-benz-s-klasse-2021-5k-white-background-3840x2160-5555.jpeg" alt="Mercedes" data-category="Mercedes">
+      <img class="car-card" src="https://4kwallpapers.com/images/wallpapers/bmw-740i-excellence-bmw-7-series-first-edition-2022-white-1920x1080-7932.jpg" alt="BMW" data-category="BMW">
+      <img class="car-card" src="https://rare-gallery.com/mocahbig/5473430-ferrari-mansory-vehicle-sports-car-tuning-red-cars.jpg" alt="Ferrari" data-category="Ferrari">
+      <img class="car-card" src="https://i.pinimg.com/736x/7d/58/a5/7d58a5ecee9a506f49b97d4a0b0ea60a.jpg" alt="Tesla" data-category="Tesla">
+    </div>
+  </section>
+
+  <!-- Lightbox popup -->
+  <div id="lightboxPopup" class="lightbox" aria-hidden="true">
+    <!-- Close button -->
+    <button class="close-lightbox" id="closeLightbox" aria-label="Close">&times;</button>
+
+    <!-- Navigation arrows -->
+    <div class="lightbox-arrows">
+      <button class="arrow-btn" data-direction="prev" aria-label="Previous"></button>
+      <button class="arrow-btn" data-direction="next" aria-label="Next"></button>
+    </div>
+
+    <!-- Image display -->
+    <img id="lightboxImage" alt="Luxury Car">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
