@@ -47,7 +47,6 @@ git clone https://github.com/MaidaKosser/CodeAlpha_ImageGallery.git
 
 ```
 luxury-car-gallery/
-│
 ├── index.html      # Main HTML file
 ├── style.css       # CSS styles
 ├── script.js       # JavaScript for carousel & lightbox
