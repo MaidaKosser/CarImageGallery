@@ -62,7 +62,7 @@ luxury-car-gallery/
 
 ---
 
-## 👤 Author
+## 👤 Author: Maida Kosser
 
 **MK Luxury Car Image Gallery**
 
