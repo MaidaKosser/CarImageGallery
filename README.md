@@ -15,9 +15,9 @@ An **interactive luxury car image gallery** showcasing Mercedes, BMW, Ferrari, a
 
 ---
 
-## 🎬 Demo video
+## 🎬 Demo video:
 
-https://drive.google.com/file/d/12U8sX5HRFsVgbS7qmXfF-ew629EgVrVx/view?usp=sharing
+https://drive.google.com/file/d/1cceyYokZdyfg_P5kQAZioZIVKGcan4Gh/view?usp=sharing
 
 ---
 
